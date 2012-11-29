@@ -82,7 +82,7 @@ window.require.define({"PacMan": function(exports, require, module) {
   ////////////////////////////////////////////////////////////////////////////////
 
   /**
-   * WordFly 2012 Holiday Game 
+   * Three.js CSS3(d) A* Pathfinder
    * 
    * @author Christopher Pappas 
    * @since 11.26.12 

@@ -5,7 +5,7 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 /**
- * WordFly 2012 Holiday Game 
+ * Three.js CSS3(d) A* Pathfinder
  * 
  * @author Christopher Pappas 
  * @since 11.26.12 
