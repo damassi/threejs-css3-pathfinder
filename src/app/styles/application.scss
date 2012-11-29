@@ -1,0 +1,47 @@
+/**
+ * Primary Application Stylesheet
+ * 
+ * @langversion Stylus
+ * 
+ * @author Christopher Pappas
+ * @since  Month 00, 2012
+ */
+
+// Apply a natural box layout model to all elements.
+// http://paulirish.com/2012/box-sizing-border-box-ftw/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#alert-levelmaker {
+	background: #fff;
+	position: absolute;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	opacity: 0;
+	padding: 3px 5px 2px 5px;
+	top: 20px;
+	left: 20px;
+	z-index:10;
+
+	button {
+		font-size: 12px;
+		color: #666;
+	}
+}
+
+#container-board {
+
+}
+	
