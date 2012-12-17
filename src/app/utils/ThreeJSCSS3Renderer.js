@@ -80,6 +80,10 @@ var ThreeJSCSS3Renderer = function() {
 		renderer.setSize( window.innerWidth, window.innerHeight );
 		renderer.domElement.style.position = 'absolute';
 		renderer.domElement.style.top = 0;
+
+		camera.position.set(0, -200, 500);
+		camera.lookAt( new THREE.Vector3(0, 190, -50) );
+
 		_parent.appendChild( renderer.domElement );
 	}
 
